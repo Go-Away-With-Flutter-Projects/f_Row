@@ -184,7 +184,7 @@ class RowWidget extends StatelessWidget {
                       ///
                       Container(
                         constraints:
-                            BoxConstraints.tight(const Size.fromRadius(90)),
+                            BoxConstraints.tight(const Size.fromRadius(60)),
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
@@ -193,7 +193,7 @@ class RowWidget extends StatelessWidget {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 28,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -203,7 +203,7 @@ class RowWidget extends StatelessWidget {
                       Container(
                         margin: const EdgeInsets.only(top: 100),
                         constraints:
-                            BoxConstraints.tight(const Size.fromRadius(90)),
+                            BoxConstraints.tight(const Size.fromRadius(60)),
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                             color: Colors.blue[400], shape: BoxShape.circle),
@@ -212,7 +212,7 @@ class RowWidget extends StatelessWidget {
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 28,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
                       )
